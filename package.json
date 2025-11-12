@@ -1,0 +1,21 @@
+{
+  "name": "web-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for the web application with auth.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "auth"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.29.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  }
+}
